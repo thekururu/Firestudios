@@ -1,99 +1,41 @@
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-/* FONDO */
-body {
-    color: white;
-    min-height: 100vh;
-    background: 
-        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.9)),
-        url("FONDO_URL_AQUI");
-    background-size: cover;
-    background-position: center;
-}
-
-/* NAVBAR */
+/* NAVBAR PRO 🔥 */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background: rgba(0,0,0,0.6);
-    backdrop-filter: blur(10px);
+    padding: 15px 25px;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,140,0,0.4);
+    box-shadow: 0 0 15px rgba(255,140,0,0.2);
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: orange;
+    text-shadow: 0 0 10px orange;
 }
 
+/* MENÚ */
 nav ul {
-    list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
 
+/* LINKS */
 nav a {
-    text-decoration: none;
     color: white;
-    padding: 8px 15px;
+    text-decoration: none;
+    padding: 8px 12px;
     border-radius: 10px;
     transition: 0.3s;
+    font-size: 0.9rem;
 }
 
-/* HOVER FUEGO 🔥 */
+/* EFECTO BONITO */
 nav a:hover {
-    background: orange;
+    background: linear-gradient(45deg, orange, red);
     color: black;
-    box-shadow: 0 0 15px orange;
-}
-
-/* SECCIÓN PRINCIPAL */
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-}
-
-/* BURBUJA LIQUID */
-.liquid-box {
-    padding: 40px;
-    max-width: 500px;
-    background: rgba(255, 140, 0, 0.1);
-    border: 2px solid rgba(255,140,0,0.5);
-    border-radius: 50% 40% 60% 50% / 60% 50% 40% 50%;
-    backdrop-filter: blur(10px);
-    text-align: center;
-    transition: 0.4s;
-}
-
-/* EFECTO HOVER */
-.liquid-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 30px orange;
-}
-
-/* BOTONES PRO */
-.btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    background: orange;
-    color: black;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* ANIMACIÓN BONITA */
-.btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px orange;
+    box-shadow: 0 0 10px orange;
 }
