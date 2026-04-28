@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     background: 
         linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.9)),
-        url("FONDO_URL_AQUI");
+        url("https://i.postimg.cc/43qVrKbW/fondo-abstracto-degradado-color-fuego-608068-703.jpg");
     background-size: cover;
     background-position: center;
 }
